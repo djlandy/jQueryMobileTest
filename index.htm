@@ -14,17 +14,25 @@
 
 <div data-role="page">
 
-	<div data-role="header">
+	<div data-role="header" data-position="fixed">
 		<h1>First Page</h1>
 	</div><!-- /header -->
 
 	<div data-role="content">	
-		<p>This is my very first jQuery Mobile Test hopefully there should be a link on the next line ...</p>
-        <p>This should link to the <a href="page2.htm" data-transition="slide">Second Page</a> with a nice slide</p>		
+		<p>This is my very first jQuery Mobile Test hopefully, there should be a table below</p>
+        <ul data-role="listview" data-inset="true" data-theme="c">
+				<li data-role="list-divider">Contents</li>
+				<li><a href="page2.htm" data-transition="slide">Second Page</a></li>
+				<li><a href="page3.htm" data-transition="slide">Third Page</a></li>
+				
+			</ul>
+
+        
+        	
 		
 	</div><!-- /content -->
 	
-	<div data-role="footer">
+	<div data-role="footer" data-position="fixed">
 		<h4>Nothing here right now</h4>
 	</div><!-- /footer -->
 	
